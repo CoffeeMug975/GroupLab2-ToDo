@@ -1,6 +1,6 @@
 import React from "react";
 import { StyleSheet, View, Button, TextInput } from "react-native";
- 
+
 function ToDoForm() {
     return (
         <View style={styles.form}>
@@ -12,7 +12,7 @@ function ToDoForm() {
         </View>
     );
 }
- 
+
 const styles = StyleSheet.create({
     form: {
         flexDirection: 'row',
@@ -30,5 +30,5 @@ const styles = StyleSheet.create({
         marginRight: 10,
     },
 });
- 
+
 export default ToDoForm;
